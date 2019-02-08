@@ -154,7 +154,7 @@ nav {
     background-color: #eee;
     width: 26px;
     height: 4px;
-}
+} 
 
 .navbar .navbar-toggler:focus,
 .navbar .navbar-toggler:hover {
@@ -176,7 +176,7 @@ nav {
 .row.no-gutters {
     margin-right: 0;
     margin-left: 0;
-    background: rgba(99, 144, 153, 0.8);
+    /* background: rgba(99, 144, 153, 0.8); */
 }
 
 .row.no-gutters>[class^="col-"],
@@ -218,7 +218,7 @@ nav {
     font-family: 'Merriweather', serif;
     font-weight: 700;
     color: #ED7876;
-    background: rgba(255, 255, 255, 0.85);
+    /* background: rgba(255, 255, 255, 0.85); */
     opacity: 0;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -243,7 +243,7 @@ nav {
     padding: 10px;
     font-family: 'Merriweather', serif;
     font-weight: 700;
-    background: rgba(255, 255, 255, 0.3);
+    /* background: rgba(255, 255, 255, 0.3); */
     opacity: 0; 
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -299,7 +299,7 @@ h3.project-header {
 /* CONTACT SECTION STYLES */
 
 .contact {
-    margin: 80px auto;
+    /* margin: 80px auto; */
 }
 
 .contact .row.no-gutters {
@@ -312,7 +312,8 @@ h3.project-header {
 }
 
 .contact li {
-    display: inline-block;
+    /* display: inline-block; */
+    list-style: none;
     padding: 8px;
 }
 
@@ -359,6 +360,12 @@ footer {
 @media (max-width: 991px) {
  
 } 
+
+@media only screen and (max-width: 767px) {
+    .contact li {
+        display: inline-block;
+         padding: 8px;
+    }
 
 @media only screen and (max-width: 640px) {
     .navbar .navbar-brand {
