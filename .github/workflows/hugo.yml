@@ -37,7 +37,7 @@ jobs:
           extended: true   # Required for Sass/SCSS in themes like PaperMod
 
       - name: Build
-        run: hugo --minify --gc --baseURL "${{ steps.pages.outputs.base_url }}/pzafonte.dev"   # Uses GitHub's base URL
+        run: hugo --minify --gc --baseURL "${{ steps.pages.outputs.base_url }}/"   # Uses GitHub's base URL
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
