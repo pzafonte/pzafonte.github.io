@@ -1,4 +1,4 @@
-baseURL: "https://pzafonte.github.io/pzafonte.dev"  # Update for your deployment URL
+baseURL: "https://pzafonte.github.io/pzafonte.dev/"  # Update for your deployment URL
 title: "Peter Zafonte"
 languageCode: "en-us"
 theme: ["PaperMod"]
