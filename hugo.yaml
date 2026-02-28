@@ -1,5 +1,6 @@
-baseURL: "https://pzafonte.github.io/pzafonte.dev/"  # Update for your deployment URL
+baseURL: "https://pzafonte.dev/"  # Update for your deployment URL
 canonifyURLs: true
+relativeURLs: false
 title: "Peter Zafonte"
 languageCode: "en-us"
 theme: ["PaperMod"]

@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://pzafonte.github.io/pzafonte.dev/sitemap.xml
+Sitemap: https://pzafonte.dev/sitemap.xml
