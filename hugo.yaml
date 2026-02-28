@@ -1,0 +1,89 @@
+baseURL: "https://pzafonte.dev.github.io/"  # Update for your deployment URL
+title: "Peter Zafonte"
+languageCode: "en-us"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+paginate: 5
+
+params:
+  env: production
+  description: "Professional Website"
+  keywords: ["portfolio", "engineer", "bitcoin", "open-source"]
+  author: "Peter Zafonte"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto  # auto, light, or dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  UseHugoToc: true
+
+  # Profile Mode - Enable this for a profile-style homepage
+  profileMode:
+    enabled: true  # Set to true to activate
+    title: "Peter Zafonte"
+    subtitle: "Backend & Systems Engineer | Go • Rust • C++ | Bitcoin Open Source"
+    imageUrl: "/images/profile.jpg"  # Upload your photo to static/images/profile.jpg
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: "Profile Photo"
+    buttons:
+      - name: Resume
+        url: /resume
+      - name: Projects
+        url: /projects
+      - name: Blog
+        url: /blog
+      - name: Contact
+        url: /contact
+
+  # Home Info Mode (fallback if profileMode is false)
+  homeInfoParams:
+    Title: "Peter Zafonte"
+    Content: "Backend & Systems Engineer | Go • Rust • C++ | Bitcoin Open Source"
+
+  # Social Icons - Add your profiles
+  socialIcons:
+    - name: github
+      url: "https://github.com/pzafonte"
+    - name: linkedin
+      url: "https://linkedin.com/in/pzafonte"
+    - name: x
+      url: "https://x.com/PeterZafonte"
+    - name: discord
+      url: "https://discord.com/users/990506023754276924"
+    - name: email
+      url: "mailto:pzafonte@pm.me"
+
+  # Menu for navigation
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+markup:
+  highlight:
+    noClasses: false
