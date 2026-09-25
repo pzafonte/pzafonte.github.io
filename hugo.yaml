@@ -35,10 +35,6 @@ params:
     imageHeight: 150
     imageTitle: "Profile Photo"
     buttons:
-      - name: Resume
-        url: /resume
-      - name: Projects
-        url: /projects
       - name: Blog
         url: /blog
       - name: Contact
@@ -69,14 +65,6 @@ menu:
       name: About
       url: /about/
       weight: 10
-    - identifier: resume
-      name: Resume
-      url: /resume/
-      weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 30
     - identifier: blog
       name: Blog
       url: /blog/
