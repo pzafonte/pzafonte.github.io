@@ -1,0 +1,11 @@
+/* The theme sizes the profile to fill the viewport, which pushes the recent
+   posts below the fold. */
+.main .profile {
+    min-height: auto;
+    padding: var(--gap) 0;
+}
+
+.recent-posts {
+    margin: var(--gap) 0;
+    font-size: 24px;
+}
